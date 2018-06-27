@@ -1,0 +1,18 @@
+【1】获取与数据库的连接   DBUtils
+	
+	
+【2】获取数据库当中表的信息，拼接生成JavaBean的字符串（内存）		GenEntityMysqlUtil
+	① package 语句		由用户指定放到项目中哪个报下		  packagePath
+	② import 语句			序列化、注解、时间日期类
+	③ 类名及其类上的注解
+			pro_tde_trade_preorder_contract
+			ProTdeTradePreorderContract
+			去掉下划线，后面单次首字母大写
+	④ 类内部的成员变量	
+			order_contract_id
+			orderContractId
+		getXXX
+		setXXX方法
+
+【3】将字符串写出到项目文件所在磁盘。	FileUtils writeStr2File方法
+
